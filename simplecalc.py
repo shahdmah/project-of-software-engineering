@@ -1,4 +1,4 @@
-import tkinter astk
+import tkinter as tk
 from functools import partial
 def call_result(label_result, n1, n2): 
     num1 = (n1.get())
@@ -24,3 +24,4 @@ buttonCal = tk.Button(root, text="Calculate",
 command=call_result).grid(row=3, column=0)
 root.mainloop()
 
+#this code is a simple calculater using GUI in python 

@@ -1,4 +1,4 @@
-import tkinter astk
+import tkinter as tk
 from functools import partial
 def call_result(label_result, n1, n2): 
     num1 = (n1.get())

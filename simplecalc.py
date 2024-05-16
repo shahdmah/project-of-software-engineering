@@ -24,3 +24,4 @@ buttonCal = tk.Button(root, text="Calculate",
 command=call_result).grid(row=3, column=0)
 root.mainloop()
 
+#this code is a simple calculater using GUI in python 
